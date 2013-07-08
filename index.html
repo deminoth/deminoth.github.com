@@ -2,6 +2,29 @@
 <html>
 <head>
 	<title>Deminoth Bono</title>
+
+	<style>
+	header {
+		display: inline;
+		float: left;
+		width: 220px;
+		margin: 0 10px;
+	}
+	article {
+		display: inline;
+		float: left;
+		width: 700px;
+		margin: 0 10px;
+	}
+	@media screen and (max-width: 960px) {
+		header {
+			display: block;
+		}
+		article {
+			display: block;
+		}
+	}
+	</style>
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -12,17 +35,6 @@
 	ga('send', 'pageview');
 
 	</script>
-	<style>
-	header {
-
-	}
-	article {
-
-	}
-	@media screen and (max-width: 960px) {
-
-	}
-	</style>
 </head>
 <body>
 	<header>
@@ -31,9 +43,9 @@
 	</header>
 	<article>
 			<address clsss="vcard">
-				<span class="fn">SangYeob Bono Yu</span>
-				<span class="note">Web Developer in Korea</span>
-				<span>Email: <a class="email" href="mailto:deminoth.github@gmail.com">deminoth.github at gmail.com</a></span>
+				<div class="fn">SangYeob Bono Yu</div>
+				<div class="note">Web Developer in Korea</div>
+				<div>Email: <a class="email" href="mailto:deminoth.github@gmail.com">deminoth.github at gmail.com</a></div>
 			</address>
 		</section>
 	</article>
